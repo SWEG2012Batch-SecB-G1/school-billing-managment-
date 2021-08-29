@@ -32,6 +32,18 @@ struct student{
    cin>>s[i].phone_no;
   
 	 }
+// displays student record
+	 
+ cout<<"NAME\t      ROLL_NO\t    GRADE\t   SECTION\t   PHONE\t"<<endl;
+    for( int i=0; i<size; i++){
+	
+	 cout<<s[0].name<<"       \t";
+	 cout<<s[0].roll_no<<"    \t";
+	 cout<<s[0].grade<<"                     \t";
+	 cout<<s[0].section<<"             \t";
+	 cout<<s[0].phone_no<<endl;
+}
+	 
   
   return 0;
   }

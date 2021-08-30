@@ -1,4 +1,5 @@
-# school-billing-managment-#include<iostream>
+# school-billing-managment-
+#include<iostream>
 using namespace std;
 
 struct student{

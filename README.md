@@ -35,7 +35,7 @@ struct student{
 	 }
 // displays student record
 	 
- cout<<"NAME\t      ROLL_NO\t    GRADE\t   SECTION\t   PHONE\t"<<endl;
+ cout<<"NAME  \t      ROLL_NO  \t    GRADE  \t   SECTION  \t   PHONE  \t"<<endl;
     for( int i=0; i<size; i++){
 	
 	 cout<<s[0].name<<"       \t";
